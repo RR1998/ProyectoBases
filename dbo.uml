@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>59a24dff-bf60-46ba-96ab-13cbf321553a.SCHEMA:PROJECTOBD3.dbo</OriginalElement>
+  <nodes>
+    <node x="254.49999999999997" y="724.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.CENTROVOTACION</node>
+    <node x="218.99999999999997" y="556.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.ENCUESTA</node>
+    <node x="449.25" y="578.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.MUNICIPIO</node>
+    <node x="458.0" y="892.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTOxMUNICIPIOxCENTROVOTACION</node>
+    <node x="230.99999999999997" y="902.5">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.JRV</node>
+    <node x="619.5" y="746.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTO</node>
+    <node x="17.0" y="278.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PERSONA</node>
+    <node x="442.0" y="344.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PREGUNTA_MULTIPLE</node>
+    <node x="209.99999999999997" y="344.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PREGUNTA_AGREGACION</node>
+    <node x="0.0" y="0.0">59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.TELEFONO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.CENTROVOTACION" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.MUNICIPIO">
+      <point x="61.5" y="-59.0" />
+      <point x="439.0" y="699.0" />
+      <point x="502.5" y="699.0" />
+      <point x="-53.25" y="37.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.ENCUESTA" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PERSONA">
+      <point x="-64.66666666666669" y="-59.0" />
+      <point x="251.3333333333333" y="531.0" />
+      <point x="103.5" y="531.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.ENCUESTA" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PREGUNTA_AGREGACION">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTOxMUNICIPIOxCENTROVOTACION" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.MUNICIPIO">
+      <point x="0.0" y="-47.5" />
+      <point x="53.25" y="37.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.ENCUESTA" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PREGUNTA_MULTIPLE">
+      <point x="64.66666666666663" y="-59.0" />
+      <point x="380.66666666666663" y="531.0" />
+      <point x="548.0" y="531.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.CENTROVOTACION" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.ENCUESTA">
+      <point x="-61.5" y="-59.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTOxMUNICIPIOxCENTROVOTACION" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.CENTROVOTACION">
+      <point x="-100.66666666666669" y="-47.5" />
+      <point x="508.33333333333326" y="867.0" />
+      <point x="439.0" y="867.0" />
+      <point x="61.5" y="59.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTOxMUNICIPIOxCENTROVOTACION" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.DEPARTAMENTO">
+      <point x="100.66666666666669" y="-47.5" />
+      <point x="709.6666666666666" y="867.0" />
+      <point x="740.0" y="867.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.PERSONA" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.TELEFONO">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.JRV" target="59a24dff-bf60-46ba-96ab-13cbf321553a.TABLE:PROJECTOBD3.dbo.CENTROVOTACION">
+      <point x="0.0" y="-37.0" />
+      <point x="-61.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3644488579940417" x="469.4332425068121" y="493.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
